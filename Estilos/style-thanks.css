@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FFFF;
+    height: 4.688rem;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+main > div {
+    width: 100%;
+    padding-bottom: 5rem;
+}
+
+div#right-side {
+    padding: 0 7rem 0 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+div#shipping-data {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+ul#steps {
+    display: flex;
+    gap: 1rem;
+}
+
+ul#steps li.finished {
+    color: #56B280;
+}
+ul#steps li.finishing {
+   color: #272727;
+   font-weight: 700;
+}
+
+ul#steps li {
+    color: #616161;
+}
+
+div#confirmed {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+div#confirmed h2 {
+    font-family: 'Poppins';
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: -0.8999999165534973px;
+    text-align: center;
+    color: #272727;
+}
+
+div#confirmed h3 {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #56B280;
+}
+
+div#confirmed p {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #818181;
+}
+
+div#confirmed button {
+    width: 249px;
+    height: 40px;
+    padding: 8px, 44px, 8px, 44px;
+    border-radius: 4px;
+    border: none;
+    background-color: #56B280;
+}
+
+div#confirmed button:hover {
+    box-shadow: 1px 1px 15px #56B280;
+    transition: .3s;
+}
+
+div#confirmed button a {
+    font-family: 'Roboto';
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}  
+
+div#confirmed a {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.8999999165534973px;
+    text-align: center;
+    color: #56B280;
+}
+
+div#items {
+    padding: 3rem 10rem 0 5rem;
+    background-color: #F2F2F2;
+    height: 100vh;
+}
+
+div#item-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+div#item-list div.item {
+    position: absolute;
+    display: flex;
+    gap: 3rem;
+}
+
+div#item-list div.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F8FA;
+    width: 10rem;
+    height: 8rem;
+}
+
+div#item-list div.image img {
+    width: 90%;
+}
+
+div#item-list div.quantity {
+    position: absolute;
+    top: -0.5rem;
+    left: 9rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #56B280;
+    border-radius: 100%;
+    color: #FFFFFF;
+}
+
+div#item-list div.texts {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+div#item-list div.texts p.item-name {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+div#item-list div.texts p.item-price {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #56B280;
+}
+
+div#item-prices {
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+div#item-prices div.input {
+    background-color: #FFFFFF;
+}
+
+div#coupon {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+}
+
+div#coupon button {
+    padding: 0.5rem 1rem;
+    background-color: #A8A8A8;
+    border-radius: 4px;
+    font-size: 1rem;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+div#subtotals {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+div#subtotals p, p#total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p#total span{
+    color: #56B280;
+}
+
+p#total span:last-child {
+    font-size: 1.5rem;
+}
+
+div.input input {
+    border: 1px solid #898989;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+}
