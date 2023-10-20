@@ -18,4 +18,4 @@ Projeto realizado na [FIAP](https://www.fiap.com.br/) com o objetivo de treinar 
 Acesse o layout utilizado feito no [Figma](https://www.figma.com) clicando [aqui](https://www.figma.com/file/Dq5jNX8w3vBy6siuoLECGT/Candleaf?type=design&node-id=116%3A92&mode=design&t=MWv51eq13sqy6Rou-1).
 
 ## :sparkles: Prévia
-Veja uma prévia clicando [aqui](https://studies2023-fiap-es-553521-ano1-06-fro.github.io/Checkpoint-2-FRO/).
+Veja uma prévia clicando [aqui](https://candleaf-tau.vercel.app/).
