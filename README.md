@@ -19,3 +19,4 @@ Acesse o layout utilizado feito no [Figma](https://www.figma.com) clicando [aqui
 
 ## :sparkles: Prévia
 Veja uma prévia clicando [aqui](https://candleaf-tau.vercel.app/).
+**Clicar em Learn More para proseguir no proejeto, todos os botões verdes são clicáveis e interagíveis!
