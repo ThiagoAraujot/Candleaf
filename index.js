@@ -1,7 +1,7 @@
 function aplicarAnimacaoNaSecao(secaoId, animacaoClass) {
     const secaoParaAnimar = document.getElementById(secaoId);
     if (!secaoParaAnimar) return; 
-    
+
     const secaoParaAnimarPosicao = secaoParaAnimar.getBoundingClientRect();
 
     if (secaoParaAnimarPosicao.top < window.innerHeight && secaoParaAnimarPosicao.bottom >= 0) {

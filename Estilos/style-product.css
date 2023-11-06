@@ -10,7 +10,17 @@
     width: 0;
 }
 
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translate3d(0, -50px, 0);
+    }
 
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
 
 body {
     width: 100%;
@@ -64,6 +74,7 @@ main {
     align-items: center;
     padding: 1em;
     height: 90vh;
+    animation: fadeIn 1s ease-in;
 }
 
 #left-side {
